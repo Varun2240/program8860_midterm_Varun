@@ -1,6 +1,7 @@
 # test_app.py
 
-from app import ToDoList
+from todo.app import ToDoList
+
 
 def test_add_task():
     todo = ToDoList()
